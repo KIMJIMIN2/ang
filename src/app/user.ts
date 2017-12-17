@@ -1,4 +1,10 @@
 export class User{
-    userName : String;
+    userName : string;
     userAge : number;
- }
+    getUserName():string{
+        return this.userName;
+    }
+    setUserName(userName:string):void{
+        this.userName = userName;
+    }
+}
